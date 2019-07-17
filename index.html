@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movie Finder</title>
+	</head>
+	
+	<body>
+		<!--Title and Directions-->
+		<header>
+			<h1>Movie By Mood</h1>
+			<p>Need help choosing the right movie for your mood?
+			<br/>
+			Click a genre to narrow down your options.</p>
+		</header>
+		
+		<!--Search bar and button filters-->
+		<div class="buttons"></div><div id="randomButton"></div>
+		
+		<!--DVD List-->
+		<div class="dvdGallery">
+				<div class="dvdContainer" data-item-tags="Action,Adventure,Comedy">
+					<img src="images/dvds/pirates-of-the-carribbean-curse-of-the-black-pearl%20.jpeg" />
+				</div>
+				<div class="dvdContainer" data-item-tags="Action,Adventure,Comedy">
+					<img src="images/dvds/pirates-of-the-caribbean-dead-mans-chest.jpeg"/>
+				</div>
+				<div class="dvdContainer" data-item-tags="Action,Adventure,Comedy">
+					<img src="images/dvds/pirates-of-caribbean-at-worlds-end.jpeg" />
+				</div>
+				<div class="dvdContainer" data-item-tags="Calmedy,Adventure">
+					<img src="images/dvds/the-princess-bride.jpeg"/>
+				</div>
+				<div class="dvdContainer" data-item-tags="Calmedy,Boys,Comedy">
+					<img src="images/dvds/the-sandlot.jpg" />
+				</div>	
+				<div class="dvdContainer" data-item-tags="Calmedy,Boys,Comedy">
+					<img src="images/dvds/holes.jpg" />
+				</div>
+		</div>
+		
+		<!--What you need to put your own DVDs in the list-->
+		<!--	<div data-item-tags="/Button titles here. Separate with a comma (do not put spaces in between each category)/">
+					<img src="/Images here/"/>
+				</div>-->
+				
+		<script src="js/jquery.js"></script>
+		<script src="js/tagsort-master/tagsort.js"></script>
+		<script src="js/test-crossfilter.js"></script>
+		<script src="js/random-button.js"></script>	
+		
+	</div>
+	</body>
+</html>
