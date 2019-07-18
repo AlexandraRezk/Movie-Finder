@@ -1,0 +1,18 @@
+.dvdContainer{
+    float: right;
+    width: 25%;
+}
+
+buttonContainer{
+    display: none;
+}
+
+img{
+    width: 45%;
+}
+
+.dvdGallery{
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -9,7 +9,7 @@
 	});
 	
 	//Buttons, event handlers, and filters go here
-	$('<span/>', {									//Create empty button
+	$('<button/>', {									//Create empty button
 		text: 'Random',									//Add text 'random'
 		class: 'active',								//make it active
 		click: function(){								//Add onclick handler to it

@@ -1,10 +1,10 @@
-$('div.buttons').tagSort({
+/*$('div.buttons').tagSort({
 	items:'.dvdContainer',
 	tagElement: 'span',
 	sortType: 'exclusive',
-});
+});*/
 
-/*$().ready(function() {
+$().ready(function() {
     $('div.buttons').each(function() {
         $(this).tagSort({
             items: '.dvdContainer',
@@ -12,4 +12,4 @@ $('div.buttons').tagSort({
 			sortType: 'exclusive',
         });
     });
-});*/
+});
