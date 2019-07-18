@@ -11,6 +11,25 @@ img{
     width: 45%;
 }
 
+button{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12.31px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover{
+	cursor: pointer;
+    background-color: blue;
+}
+
+button.active{
+	 background-color: blue;
+}
+
+
 .dvdGallery{
     content: "";
     clear: both;

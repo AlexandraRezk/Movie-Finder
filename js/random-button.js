@@ -1,5 +1,5 @@
 (function(){
-	var $dvdContainer = $('.dvdGallery .dvdContainer'); 			//Stores all images
+	var $dvdContainer = $('.dvdContainer'); 			//Stores all images
 	var $randomButton = $('#randomButton');						//Stores button elements
 	var myMovies = [];									//Create empty DVD array
 	
@@ -11,7 +11,6 @@
 	//Buttons, event handlers, and filters go here
 	$('<button/>', {									//Create empty button
 		text: 'Random',									//Add text 'random'
-		class: 'active',								//make it active
 		click: function(){								//Add onclick handler to it
 			$(this)										//Get the clicked on button
 			.addClass('active')							//Add the class of active
