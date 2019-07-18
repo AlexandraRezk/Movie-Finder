@@ -22,11 +22,11 @@ button{
 
 button:hover{
 	cursor: pointer;
-    background-color: blue;
+    background-color: yellow;
 }
 
 button.active{
-	 background-color: blue;
+	 background-color: yellow;
 }
 
 
