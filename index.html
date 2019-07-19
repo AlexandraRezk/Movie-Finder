@@ -3,11 +3,12 @@
 	<head>
 		<title>Movie Finder</title>
         <link rel="stylesheet" type="text/css" href="css/dvd-gallery.css"/>
+        <link rel="stylesheet" type="text/css" href="css/960_12_col.css"/>
 	</head>
 	
-	<body>
+	<body class="container_12">
 		<!--Title and Directions-->
-		<header>
+		<header class="grid_12">
 			<h1>Movie By Mood</h1>
 			<p>Need help choosing the right movie for your mood?
 			<br/>
@@ -18,31 +19,148 @@
 		<div class="buttons"></div><div id="randomButton"></div>
 		
 		<!--DVD List-->
-		<div class="dvdGallery id=buttonContainer">
-                <div class="dvdContainer" data-item-tags="Action/Adventure, Comedy, Children, Family, Teen, YA, Drama, Fantasy, Sci-fi, Horror, Thriller, Late Night, Animation, TV/Series, Holiday, Cerebral">
+		<div class="dvdGallery container_12 clearfix">
+                <div class="dvdContainer" id="buttonContainer" data-item-tags="Action/Adventure, Comedy, Children, Family, Teen, YA, Drama, Fantasy, Sci-fi, Horror, Thriller, Late Night, Animation, TV/Series, Holiday, Cerebral">
 				</div>
-				<div class="dvdContainer" data-item-tags="Action/Adventure, Comedy">
+				<div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Fantasy">
 					<img src="images/dvds/pirates-of-the-carribbean-curse-of-the-black-pearl%20.jpeg" />
 				</div>
-				<div class="dvdContainer" data-item-tags="Action/Adventure, Comedy">
+				<div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Fantasy">
 					<img src="images/dvds/pirates-of-the-caribbean-dead-mans-chest.jpeg"/>
 				</div>
-				<div class="dvdContainer" data-item-tags="Action/Adventure, Comedy">
+				<div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Fantasy">
 					<img src="images/dvds/pirates-of-caribbean-at-worlds-end.jpeg" />
 				</div>
-				<div class="dvdContainer" data-item-tags="Action/Adventure, Comedy">
+				<div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Fantasy">
 					<img src="images/dvds/the-princess-bride.jpeg"/>
 				</div>
-				<div class="dvdContainer" data-item-tags="Comedy, Children, Family">
+				<div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family">
 					<img src="images/dvds/the-sandlot.jpg" />
 				</div>	
-				<div class="dvdContainer" data-item-tags="Comedy, Children, Family">
+				<div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family">
 					<img src="images/dvds/holes.jpg" />
 				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Drama, Cerebral">
+					<img src="images/dvds/a-beautiful-mind.jpeg" />
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Teen, Family, Drama">
+					<img src="images/dvds/a-cinderella-story.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Teen">
+					<img src="images/dvds/agent-cody-banks.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Teen, Family">
+					<img src="images/dvds/alex-rider-operation-stormbreaker.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Animation, TV/Series">
+					<img src="images/dvds/all-grown-up.jpg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Teen, Family, Drama">
+					<img src="images/dvds/another-cinderella-story.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Teen, YA, Drama">
+					<img src="images/dvds/band-slame.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="YA, Fantasy">
+					<img src="images/dvds/beastly.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Drama">
+					<img src="images/dvds/benny-and-joon.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Family, Drama, Fantasy">
+					<img src="images/dvds/bewitched.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Children, Family, Fantasy, Animation">
+					<img src="images/dvds/brother-bear.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Fantasy">
+					<img src="images/dvds/casper.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Family, Drama, Fantasy, Animation">
+					<img src="images/dvds/coraline.jpg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Drama, Horror, Thriller">
+					<img src="images/dvds/crush.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Fantasy, Animation">
+					<img src="images/dvds/despicable-me.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Drama, Fantasy, Sci-fi, Thriller, Cerebral">
+					<img src="images/dvds/donnie-darko.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Family, Fantasy">
+					<img src="images/dvds/edward-scissorhands.jpg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Family, Drama, TV/Series">
+					<img src="images/dvds/full-house-season-1.jpg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Teen, Family, Drama">
+					<img src="images/dvds/hotel-for-dogs.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Teen, YA, Drama, Sci-fi, Thriller">
+					<img src="images/dvds/i-am-number-4.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Family, Drama, Animation">
+					<img src="images/dvds/kodocha-v1.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Drama, Fantasy">
+					<img src="images/dvds/matilda.jpg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Children, Family, Fantasy, Thriller, Animation">
+					<img src="images/dvds/monster-house.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Drama">
+					<img src="images/dvds/mrs-doubtfire.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, YA, Drama, Late Night">
+					<img src="images/dvds/neighbors.jpeg"/>
+				</div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Teen, YA, Drama, Thriller">
+					<img src="images/dvds/nerve.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Fantasy">
+					<img src="images/dvds/now-you-see-me.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Fantasy">
+					<img src="images/dvds/now-you-see-me-2.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Children, Family, Fantasy">
+					<img src="images/dvds/peter-pan-2003.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Holiday, Animation">
+					<img src="images/dvds/scooby-doo-and-the-ghoul-school.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Children, Family, Fantasy, Animation">
+					<img src="images/dvds/sinbad-legend-of-the-seven-seas.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Fantasy, Horror, Thriller">
+					<img src="images/dvds/sleepy-hollow.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, YA, Drama">
+					<img src="images/dvds/StruckByLightningDVD-F.jpg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Teen, YA, Drama">
+					<img src="images/dvds/the-breakfast-club.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Fantasy, Holiday">
+					<img src="images/dvds/the-little-vampire.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Action/Adventure, Comedy, Children, Family, Fantasy, Holiday">
+					<img src="images/dvds/the-santa-clause.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Children, Family, Fantasy, Thriller, Holiday">
+					<img src="images/dvds/tower-of-terror.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Children, Family, Fantasy">
+					<img src="images/dvds/willy-wonka-and-the-chocolate-factory.jpeg"/>
+                </div>
+                <div class="dvdContainer grid_3" data-item-tags="Comedy, Family, YA, Fantasy, Sci-fi, Thriller, Holiday">
+					<img src="images/dvds/young-frankenstien.jpeg"/>
+                </div>
 		</div>
 		
 		<!--What you need to put your own DVDs in the list-->
-		<!--	<div data-item-tags="/Button titles here. Separate with a comma (do not put spaces in between each category)/">
+		<!--	<div class="dvdContainer grid_3" data-item-tags="/Button titles here. Separate with a comma/">
 					<img src="/Images here/"/>
 				</div>-->
 				
