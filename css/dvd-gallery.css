@@ -25,10 +25,9 @@ button:hover{
     background-color: yellow;
 }
 
-button.active{
+.buttons button.active{
 	 background-color: yellow;
 }
-
 
 .dvdGallery{
     content: "";
