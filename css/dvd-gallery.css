@@ -11,13 +11,23 @@ img{
 	height: 286px;
 }
 
+h1, p {
+    text-align: center;
+}
+
 button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12.31px;
-    margin: 4px 2px;
+    font-size: 16px;
+    margin: 6px 2px;
+    padding: 15px 25px;
     cursor: pointer;
+    outline: none;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 button:hover{
@@ -27,6 +37,15 @@ button:hover{
 
 .buttons button.active{
 	 background-color: yellow;
+}
+
+.buttons{
+    text-align: center;
+}
+
+#randomButton{
+    text-align: center;
+    margin: 7px 2px;
 }
 
 .dvdGallery{
