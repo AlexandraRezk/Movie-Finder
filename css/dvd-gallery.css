@@ -48,16 +48,19 @@ button:hover{
     margin: 7px 2px;
 }
 
-.dvdGallery{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-header{
-    background-image: url(../images/background/pexels-photo-1353368.jpeg);
-}
-
 body{
-    background-color: gainsboro;
+    background-image: url(../images/background/popcorn-movie-party-entertainment.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.grid_12, .dvdGallery, .buttons, #randomButton{
+    background-color: #ffffff;
+            opacity: 0.8;
+}
+
+.grid_12 p, .dvdGallery p, .buttons p, #randomButton p{
+    color: #000000;
+    font-weight: bold;
 }
