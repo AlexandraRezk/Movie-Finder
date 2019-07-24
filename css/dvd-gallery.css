@@ -53,3 +53,11 @@ button:hover{
     clear: both;
     display: table;
 }
+
+header{
+    background-image: url(../images/background/pexels-photo-1353368.jpeg);
+}
+
+body{
+    background-color: gainsboro;
+}
